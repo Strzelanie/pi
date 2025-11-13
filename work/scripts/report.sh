@@ -23,7 +23,7 @@ if [[ "$P1" == "-n" ]]; then
 	fi
 	echo "DRY RUN - podglad"
 	date +"%F %T"
-	du -sh "$P2"/* | sort -rh | head -5
+	du -sh "$P2"/* 2>/dev/null | sort -rh | head -5
 	exit 0
 fi
 
@@ -35,4 +35,4 @@ fi
 
 # Data oraz ranking top 5 podkatalogow
 date +"%F %T"
-du -sh "$P1"/* | sort -rh | head -5
+du -sh "$P1"/* 2>/dev/null | sort -rh | head -5
