@@ -1,7 +1,6 @@
 #!/bin/bash
-# Pobranie parametru dla skryptu oraz zdefiniowanie dry run
+# Pobranie parametru 1 dla skryptu
 P1="${1:-}"
-DRYRUN=0
 
 # Sprawdzenie, czy zostal podany parametr
 if [[ -z "$P1" ]]; then
@@ -11,7 +10,6 @@ fi
 
 # Sprawdzenie, czy zostal uruchomiony dry run, rowniez sam tryb
 if [[ "$P1" == "-n" ]]; then
-	DRYRUN=1
 	P2="${2:-}"
 	if [[ -z "$P2" ]]; then
 		echo "Prosze podac parametr"
