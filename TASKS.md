@@ -6,6 +6,8 @@
 3. (4 pkt) Z pliku `data/logs/system.log` wypisz linie zawierające `ERROR` lub `WARN` (case-insensitive) do `out/warn_err.txt`.
    Wymagania: filtr bez rozróżniania wielkości liter; wynik zapisany do wskazanego pliku.
 
+##### Proszę wszystkie komendy wykorzystanie w zadaniach 1 i 2 wpisać do pliku tekstowego **work/notes/nazwa.rozszerzenie**
+
 ## Zadanie 2 — Filtry i potoki (WYBIERZ JEDNĄ WERSJĘ, 10 pkt)
 
 **Wersja 2A (CSV):**  
